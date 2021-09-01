@@ -1,0 +1,6 @@
+#!name=BT Sync
+#!desc=To make BT resilio directly
+
+[Rule]
+DOMAIN-KEYWORD,resilio,DIRECT
+URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?,DIRECT
